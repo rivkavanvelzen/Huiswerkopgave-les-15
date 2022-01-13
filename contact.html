@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <title>Inleiding</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div id="header">
+    <h1>Mijn CV</h1>
+    <ul>
+    <li><a href="index.html">Inleiding</a></li>
+    <li><a href="mijncv.html">Mijn CV</a></li>
+    <li><a href="contact.html">Contactpagina</a></li>
+    </ul>
+  </div>
+    <hr>
+  </header>
+
+<div>
+  <h1>Contactpagina</h1>
+  <h2>Contactformulier</h2>
+  <form method="post" action="https://formspree.io/f/xnqlkkoq">
+    <input type="text" name="Voornaam" placeholder="Voornaam" required>
+    <input type="text" name="Achternaam" placeholder="Achternaam" required>
+    <input type="email" name="E-mail" placeholder="E-mailadres" required>
+    <textarea name="Bericht" maxlength="500" placeholder="Schrijf hier uw bericht">
+    </textarea>
+    <h3>Gewenst contactmoment</h3>
+    <input type="date" name="Gewenste datum" min="2022-01-17" max="2022-01-31">
+    <h3>Voorkeur tijdstip</h3>
+    <input type="radio" name="Tijdstip voorkeur" value="Ochtend" checked> Ochtend
+    <input type="radio" name="Tijdstip voorkeur" value="Middag"> Middag
+    <input type="radio" name="Tijdstip voorkeur" value="Avond"> Avond
+    <button name="Verzendknop">
+    <strong>Verzend</strong></button>
+   </form>
+</div>
+
+<footer>
+  <hr>
+<div id="footer">© 2022 mijncv | <a href="#">Privacybeleid</a>
+</div>
+</footer>
+</body>
+</html>
